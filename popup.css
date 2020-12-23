@@ -1,0 +1,17 @@
+body {
+
+    background-color: #a4c8de !important;
+    font-family: 'Alata', sans-serif;
+    width:215px;
+    margin:0;
+    padding:20px;
+}
+
+input{
+
+    background-color: #a4c8de;
+    border:none;
+    margin:5px;
+    width:10px;
+
+}

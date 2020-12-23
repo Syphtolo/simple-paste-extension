@@ -1,0 +1,26 @@
+{
+	"manifest_version": 2,
+	"name": "Quick Accent Marks Extension",
+	"version": "1.0.7",
+    "description": "An extension used to type accent marks quickly!",
+	"browser_action":{
+        "default_icon":"QuickAccent16.png",
+		"default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "QuickAccent16.png",
+        "32": "QuickAccent16.png",
+        "48": "QuickAccent48.png",
+        "128": "QuickAccent128.png"
+    },
+    "commands": {
+        "_execute_browser_action": {
+            "suggested_key": {
+                "windows": "Ctrl + M",
+                "mac": "Ctrl + M",
+                "chromeos": "Ctrl + M",
+                "linux": "Ctrl + M"
+           }
+        }
+    }
+}
