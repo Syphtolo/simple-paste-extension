@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Quick Accent Marks Extension",
-	"version": "1.0.7",
+	"version": "1.0.9",
     "description": "An extension used to type accent marks quickly!",
 	"browser_action":{
         "default_icon":"QuickAccent16.png",
