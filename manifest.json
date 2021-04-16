@@ -1,0 +1,53 @@
+{
+	"manifest_version": 2,
+	"name": "Simple Paste Extension",
+	"version": "2.0.0",
+    "description": "The Simple Paste Extension allows you to paste whatever you want easily, from math symbols to Spanish Accents!",
+	"browser_action":{
+        "default_icon":"SimplePaste128.png",
+		"default_popup": "popup.html"
+    },
+    "permissions": [
+        "storage", "tabs"
+    ],
+    "icons": {
+        "16": "SimplePaste16.png",
+        "32": "SimplePaste32.png",
+        "48": "SimplePaste48.png",
+        "128": "SimplePaste128.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+      },
+    "commands": {
+        "_execute_browser_action": {
+            "suggested_key": {
+                "windows": "Ctrl + M",
+                "mac": "Ctrl + M",
+                "chromeos": "Ctrl + M",
+                "linux": "Ctrl + M"
+           }
+        },
+        "open-spanish-only-ui": {
+            "suggested_key":{
+                "windows": "Ctrl + Shift + 3",
+                "mac": "Ctrl + Shift + 3",
+                "chromeos": "Ctrl + Shift + 3",
+                "linux": "Ctrl + Shift + 3"
+            },
+            "description": "Opens the spanish-specific UI.",
+            "global": true
+        },
+        "global-main-gui": {
+            "suggested_key":{
+                "windows": "Ctrl + Shift + 1",
+                "mac": "Ctrl + Shift + 1",
+                "chromeos": "Ctrl + Shift + 1",
+                "linux": "Ctrl + Shift + 1"
+            },
+            "description": "Opens main UI globally",
+            "global": true
+        }
+        
+    }
+}

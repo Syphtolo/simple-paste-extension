@@ -1,0 +1,36 @@
+body {
+
+    background-color: #ebf22b !important;
+    font-family: 'Alata', sans-serif;
+    width:700px;
+    margin:0;
+    padding:20px;
+    height: 350px;
+}
+
+input{
+
+    background-color: #ebf22b;
+    font-family: 'Alata', sans-serif;
+    border:none;
+    margin:5px;
+    width:55px;
+
+}
+#paste-section{
+    width: 650px;
+    margin: 0 auto;
+}
+#paste-section p {
+    width: 5px;
+    margin: 0 auto;
+    display: inline-block;
+    color: #ff5000;
+}
+a{ 
+    color: #ff5000;
+    text-decoration: none;
+}
+a:hover{ 
+    text-decoration: underline;
+}
